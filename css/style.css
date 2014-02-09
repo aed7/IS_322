@@ -1,8 +1,8 @@
-/*Colors
+<!--Colors
 red: #9d0000
 gray: #d7dad3
 active gray: #b0b3ad
-End Colors*/
+End Colors-->
 
 /************Reset**************/
 html, body, div, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, ol, ul, li, form, fieldset, legend, label, table, header, footer, nav, section { 
@@ -24,7 +24,7 @@ legend {
 body { 
 	font: 100%/1.5 'Gill Sans', 'Droid Sans', 'Calibri', 'Lucida Grande', 'Trebuchet MS', 'Helvetica Neue', 'Arial', sans-serif; 
 	color: #000;
-	background: url(images/bg2.png) #fff; 
+	//background-color: #7FFFD4; 
 	text-align: center;
 }
 a {
@@ -714,11 +714,10 @@ header[role="banner"] .nav {
 /************End Structure**************/
 
 /************Mobile Queries**************/
-@media screen and (min-width: 40.5em) {
+@media screen and (min-width: 28.75em) {
 .related-products li {
-		width: 50%;
-		float: left;
-	}
+		width: 33.333333%;
+			}
 }
 
 
