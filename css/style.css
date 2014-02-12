@@ -1,8 +1,8 @@
-<!--Colors
+/*Colors
 red: #9d0000
 gray: #d7dad3
 active gray: #b0b3ad
-End Colors-->
+End Colors*/
 
 /************Reset**************/
 html, body, div, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, ol, ul, li, form, fieldset, legend, label, table, header, footer, nav, section { 
@@ -19,12 +19,13 @@ header, footer, nav, section, article, hgroup, figure {
 legend {
 	display: none;
 }
+/************End Reset**************/
 
-//Global//
+/************Global**************/
 body { 
 	font: 100%/1.5 'Gill Sans', 'Droid Sans', 'Calibri', 'Lucida Grande', 'Trebuchet MS', 'Helvetica Neue', 'Arial', sans-serif; 
 	color: #000;
-	//background-color: #7FFFD4; 
+	background: url('img/bg2.png')  #fff; 
 	text-align: center;
 }
 a {
@@ -146,9 +147,9 @@ select:focus, input:focus {
 :-moz-placeholder {
    color: #999;
 }
-//END OF GLOBAL//
+/************End Global**************/
 
-//Classes//
+/************Classes**************/
 .btn {
 	background: #9d0000; /* Old browsers */
 	text-align: center;
@@ -178,9 +179,9 @@ select:focus, input:focus {
 	-moz-box-shadow: 0 0 10px rgba(0,0,0,0.3);
 	box-shadow: 0 0 10px rgba(0,0,0,0.3);
 }
-//END OF CLASSES//
+/************End Classes**************/
 
-//Structure//
+/************Structure**************/
 header[role="banner"] {
 	position: relative;
 	background: #111; 
@@ -615,6 +616,8 @@ header[role="banner"] .nav {
 	margin: 0;
 }
 
+
+/*Footer*/
 .footer {
 	background: #333;
 	background: -moz-linear-gradient(top, #333 0%, #111 100%);
@@ -716,14 +719,13 @@ header[role="banner"] .nav {
 /************Mobile Queries**************/
 @media screen and (min-width: 28.75em) {
 .related-products li {
-		width: 33.333333%;
-			}
+		width: 33.3333333%;
+	}
 }
 
+/************Mobile Queries**************/
 
-//END OF STRUCTURE//
-
-//MOBILE QUERIES//
+/************Animations**************/
 @-webkit-keyframes fadein {
 	0% { opacity: 0; }
 	100% { opacity: 1;  }
@@ -780,5 +782,3 @@ input[type=number]::-webkit-outer-spin-button {
 	display: none;
 }
 /************End Comment Mode**************/
-
-
